@@ -1,0 +1,26 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "../tslint.json"
+  ],
+  "rules": {
+    "no-console": false,
+    "no-invalid-this": false,
+    "only-arrow-functions": false,
+    "no-reference-import": true,
+    "typedef": [
+      true,
+      "call-signature",
+      "parameter",
+      "member-variable-declaration"
+    ],
+    "variable-name": [
+      true,
+      "allow-leading-underscore",
+      "allow-trailing-underscore",
+      "allow-pascal-case",
+      "ban-keywords",
+      "check-format"
+    ]
+  }
+}

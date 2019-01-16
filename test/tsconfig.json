@@ -1,0 +1,17 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "src",
+    "outDir": "dist",
+    "paths": {
+      "app/*": [
+        "../../src/app/*"
+      ]
+    },
+    "target": "es6"
+  },
+  "include": [
+    "src",
+    "../src/typings"
+  ]
+}
